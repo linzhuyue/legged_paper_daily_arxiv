@@ -1,8 +1,9 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let titles_model = ["Legged Robot", "Bipedal Robot", "Optimization","Trajectory","GPT"];
+let titles_method = ["Reinforcement Learning","Self-Supervised","control","locomotion","navigation","mpc","differential","whole body control"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let authors_array = ["Koushil Sreenath", "Sergey Levine", "Lerrel Pinto","Yong Liu","MATTHEW CHIGNOLI","Farbod Farshidian",
+                    "Wei Yang","Donghyun Kim","Qiuguo Zhu","Marco Hutter","Jemin Hwangbo","Sangbae Kim","Xiaolong Wang","Wei Zhang","PATRICK M. WENSING"]];
 
 let conferences = [
     // AI
@@ -11,18 +12,12 @@ let conferences = [
     "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
     // DM
     "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDE", "ICDM", "ICDT", "KDD", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "SIGMOD", "VLDB", "WSDM", "WWW", "EDBT", "CIDR",
-    // IR
-    "ECIR", "ESWC", "ICMR", "ICTIR", "ISWC", "SIGIR",
     // ML
     "ACML", "AISTATS", "ECML", "ICLR", "ICML", "ML4H", "NeurIPS", "NIPS", "UAI",
+     // Robotics
+    "IROS","ICRA","IEEE Conference on Decision and Control","CoRL","Journal of Field Robotics","The International Journal of Robotics Research","IEEE Robotics and Automation Letters","Science Robotics","IEEE Transactions on Robotics and Automation","TRO","RAL","IEEE/ASME Transactions on Mechatronics",
     // NLP
     "AACL", "ACL", "CCL", "COLING", "COLT", "CoNLL", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
-    // Arch
-    "ASPLOS", "ATC", "DATE", "EuroSys", "FAST", "HPCA", "ISCA", "MICRO", "PPoPP", "SC", "SoCC",
-    // System
-    "FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
-    // Security
-    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
 ];
 
 let start = conferences.shift();
