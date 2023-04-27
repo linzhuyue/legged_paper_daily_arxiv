@@ -1,16 +1,16 @@
-site_title = "MyArxiv"
+site_title = "legged_paper_daily_arxiv"
 limit_days = 7
 cache_url = "https://linzhuyue.github.io/legged_paper_daily_arxiv/cache.json"
 
 [[sources]]
 limit = 150
-category = "cs.CL"
-title = "Computation and Language"
+category = "cs.RO"
+title = "Robotics"
 
 [[sources]]
 limit = 150
-category = "cs.CV"
-title = "Computer Vision and Pattern Recognition"
+category = "cs.AI"
+title = "Artifical Intelligence"
 
 [[sources]]
 limit = 150
@@ -24,8 +24,13 @@ title = "Machine Learning"
 
 [[sources]]
 limit = 150
-category = "cs.MM"
-title = "Multimedia"
+category = "cs.OC"
+title = "Optimization and Control"
+
+[[sources]]
+limit = 150
+category = "cs.SY"
+title = "Systems and Control"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
