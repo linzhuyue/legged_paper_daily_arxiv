@@ -14,11 +14,6 @@ title = "Artifical Intelligence"
 
 [[sources]]
 limit = 150
-category = "cs.LG"
-title = "Machine Learning"
-
-[[sources]]
-limit = 150
 category = "cs.OC"
 title = "Optimization and Control"
 
