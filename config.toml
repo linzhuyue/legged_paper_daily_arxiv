@@ -14,11 +14,6 @@ title = "Artifical Intelligence"
 
 [[sources]]
 limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
-
-[[sources]]
-limit = 150
 category = "cs.LG"
 title = "Machine Learning"
 
