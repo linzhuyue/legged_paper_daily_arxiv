@@ -1,5 +1,5 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["Legged Robot", "Bipedal Robot", "Optimization","Trajectory","GPT"];
+let titles_model = ["Legged Robot", "Bipedal Robot", "Optimization","Trajectory","GPT","Optimal"];
 let titles_method = ["Reinforcement Learning","Self-Supervised","control","locomotion","navigation","mpc","differential","whole body control"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Koushil Sreenath", "Sergey Levine", "Lerrel Pinto","Yong Liu","MATTHEW CHIGNOLI","Farbod Farshidian",
