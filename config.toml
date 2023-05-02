@@ -7,10 +7,14 @@ limit = 150
 category = "cs.RO"
 title = "Robotics"
 
+[[sources]]
+limit = 150
+category = "cs.AI"
+title = "Artificial Intelligence"
 
 [[sources]]
 limit = 150
-category = "cs.OC"
+category = "math.OC"
 title = "Optimization and Control"
 
 [[sources]]
